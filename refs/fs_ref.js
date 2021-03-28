@@ -39,6 +39,8 @@ const path = require(`path`);
 //     }
 // );
 
+// Переименнование файла
+
 fs.rename(
     path.join(__dirname, `notes`, `mynotes.txt`),
     path.join(__dirname, `notes`, `notes`),

@@ -7,4 +7,4 @@ console.log(path.extname(__filename)); // содкржит расширение 
 console.log(path.parse(__filename)); // сожержит объект
 
 console.log(path.join(__dirname, `test`, `second.html`)); // генерирует путь
-console.log(path.resolve(__dirname, `./test`, `/second.html`));
+console.log(path.resolve(__dirname, `./test`, `/second.html`)); // генерирует путь, также может определить корень
